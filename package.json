@@ -1,6 +1,6 @@
 {
-  "homepage": "http://sinanaltundag.github.io/recipe-app",
-  "name": "recipe-app",
+  "homepage": "http://sinanaltundag.github.io/Recipe-app",
+  "name": "1-start",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
