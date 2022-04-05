@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00adb5;
+}
+
+a{
+  text-decoration: none;
+  
+}
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  /* gap: 2rem; */
+}
+
+.nutrients{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+}
