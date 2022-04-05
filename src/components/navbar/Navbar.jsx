@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
         <NavBar className="nav-container">
-<Link to="/"><NavLink fontWeight={"bold"} fontStyle={"italic"}>{`<Clarusway>`}</NavLink><Span>RECIPE</Span></Link>
+<Link to="/"><NavLink fontWeight={"bold"} text fontStyle={"italic"}>{`<Clarusway>`}</NavLink><Span>RECIPE</Span></Link>
 <div className="nav-right">
 
 <Link to="/about"><NavLink >About</NavLink></Link>

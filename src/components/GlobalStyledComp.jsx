@@ -10,7 +10,8 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: ${(props) => props.alignItems || "center"};
   background-image: url(${(props) => props.imgUrl || undefined});
-  ${"" /* background-attachment: fixed; */}
+  background-size: cover ;
+  
 `;
 export const Container = styled.div`
   background-color: ${(props) => props.backColor || "#00adb5"};
@@ -58,7 +59,9 @@ export const NavLink = styled.span`
       font-size: 2rem;
       padding: 0;
       font-weight: ${(props) => props.fontWeight || "bold"};
-      background-color: rgba(100, 100, 100, 0.5);
+      &:hover{
+        color: black;
+      }
     `}
 `;
 
@@ -74,7 +77,6 @@ export const Span = styled.span`
 
 export const FormInput = styled.input`
   background-color: ${(props) => props.backColor || "rgba(0, 0, 0,0.5)"};
-  ${"" /* margin-top: 1rem; */}
   width: 100%;
   padding: 0.5rem 1rem;
   border: none;

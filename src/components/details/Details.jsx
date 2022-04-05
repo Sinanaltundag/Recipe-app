@@ -14,6 +14,7 @@ const Details = () => {
         <Img src={MealSvg} width="150px" />
       </Container>
       <Container ConWidth={"95%"} backColor={"#E1F1DD"}>
+      <Img src={recipe.image} maxWidth="300px"/>
         <NavLink>Nutrients</NavLink>
         <div className="nutrients">
           {Object.values(recipe.totalNutrients).map((value) => {

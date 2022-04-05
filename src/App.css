@@ -18,6 +18,7 @@ a{
   flex-flow: row wrap;
   width: 100%;
   justify-content: space-evenly;
+  
   /* gap: 2rem; */
 }
 
