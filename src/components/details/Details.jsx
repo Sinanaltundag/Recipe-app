@@ -6,7 +6,6 @@ import MealSvg from "../../assets/diet.svg";
 const Details = () => {
   const location = useLocation();
   const recipe = location.state.recipe;
-  console.log(recipe);
 
   return (
     <Wrapper>
@@ -19,7 +18,6 @@ const Details = () => {
         <div className="nutrients">
           {Object.values(recipe.totalNutrients).map((value) => {
             return Object.values(value).map((item) => {
-              console.log(item);
               return (
                 <div>
                   <p>{item}</p>

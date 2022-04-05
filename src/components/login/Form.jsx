@@ -15,8 +15,8 @@ return
     <div>
       <form action="" style={{display: 'flex', flexDirection: 'column'}} onSubmit={(e)=>handleSubmit(e)}>
       <NavLink textColor={"black"} text>{`<Clarusway/>Recipe`}</NavLink> <br />
-        <FormInput type="text" placeholder={"USERNAME"} /> <br />
-        <FormInput type="password" placeholder={"PASSWORD"} /> <br />
+        <FormInput type="text" placeholder={"USERNAME"}  required/> <br />
+        <FormInput type="password" placeholder={"PASSWORD"} required/> <br />
         <FormInput type="submit"  textColor="white" value="Login"  />
         
       </form>

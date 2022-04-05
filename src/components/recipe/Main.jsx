@@ -20,7 +20,6 @@ const Main = () => {
       const res = await axios.get(
         `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${mealType}`
       );
-      console.log(res)
       setRecipes(res.data.hits);
     };
     // fetchApi("apple", "Lunch")
@@ -33,7 +32,6 @@ const handleChange =(value)=>{
   setQuery(value)
 }
 
-console.log(recipes)
   return (
     <div>
       <Wrapper backColor={"#00adb5"}>
@@ -52,7 +50,6 @@ console.log(recipes)
         </Container>
         <div className="flex-container">
         {recipes?.length>0?recipes.map((recipe,index)=>{
-          console.log(recipe)
           return (<RecipeCard {...recipe} key={index} width={"200px"}/>)}):<Img src={MealSvg} width="500px"/>}
         
         </div>

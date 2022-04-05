@@ -12,7 +12,7 @@ const About = () => {
         <Container backColor={"#00adb5"} alignItems={"end"}>
           <h3>Hi, I'am Sinan</h3>
           <p>I’m currently learning Full-Stack Development Languages.</p>
-          <p>I know JS, ReactJS, SQL, Python, Bootstrap.</p>
+          <p>I know JS, ReactJS, SQL, Python, Golang, Bootstrap, Sass.</p>
           <h3><a href='mailto:peykani@gmail.com'>Send email</a> : peykani@gmail.com</h3>
         </Container>
       </Wrapper>
