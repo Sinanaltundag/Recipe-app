@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <div>
         <NavBar className="nav-container">
-<Link to="/"><NavLink fontWeight={"bold"} text fontStyle={"italic"}>{`<Clarusway>`}</NavLink><Span>RECIPE</Span></Link>
+<Link to="/home"><NavLink fontWeight={"bold"} text fontStyle={"italic"}>{`<Clarusway>`}</NavLink><Span>RECIPE</Span></Link>
 <div className="nav-right">
 
 <Link to="/about"><NavLink >About</NavLink></Link>
 <a href="https://github.com/Sinanaltundag"><NavLink>Github</NavLink></a>
-<Link to="/login"><NavLink>Logout</NavLink></Link>
+<Link to="/" onClick={()=>sessionStorage.clear()}><NavLink>Logout</NavLink></Link>
 </div>
         </NavBar>
     </div>

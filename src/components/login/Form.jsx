@@ -5,9 +5,11 @@ import { FormInput, NavLink } from "../GlobalStyledComp";
 
 const Form = () => {
  const navigate= useNavigate()
+ const user= {username:"user"}
   const handleSubmit =(e)=>{
 e.preventDefault();
-navigate("/")
+sessionStorage.setItem("user", JSON.stringify(user))
+navigate("/home")
 return 
 
   }

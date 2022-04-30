@@ -6,6 +6,7 @@ import MealSvg from "../../assets/diet.svg";
 const Details = () => {
   const location = useLocation();
   const recipe = location.state.recipe;
+  console.log(location.state)
 
   return (
     <Wrapper>

@@ -10,7 +10,7 @@ const APP_ID = "583486eb";
 
 const Main = () => {
   const [recipes, setRecipes] = useState([]);
-  const [query, setQuery] = useState()
+  const [query, setQuery] = useState("")
   const [mealType, setMealType] = useState("Breakfast")
  
  
